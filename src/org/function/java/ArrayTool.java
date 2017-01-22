@@ -5,12 +5,11 @@ package org.function.java;
  *@version 1_1.0
  */
 
-class ArrayTool
+public class ArrayTool
 {
 	/**
 	 * 获取一个乘法列表。
 	 * @param t 接收一个int型的数。
-	 * @return 返回一个以t为基准的乘法列表。
 	 */
 	 public static  void timeTable(int t)
 	 {
@@ -27,8 +26,7 @@ class ArrayTool
 	 
 	 /**
 	  * 选择排序，输入一个数组，输出一个从小到大排好序的数组
-	  * @param arr 随机输入一个int型数组。
-	  * @return 返回一个从小到大排好序的数组。
+	  * @param arr 随机输入一个整型数组。
 	  */
 	 public static void selectSort(int[] arr)
 	 {
@@ -59,8 +57,7 @@ class ArrayTool
 	 }
 	 /**
 	  * 冒泡排序，输入一个数组，输出一个从小到大排好序的数组。
-	  * @param arr 随机输入一个int型数组。
-	  * @return 返回一个从小到大排好序的数组。
+	  * @param arr 随机输入一个整型数组。
 	  */
 	 public static void buBbleSort(int[] arr)
 	 {
@@ -91,7 +88,8 @@ class ArrayTool
 	 }
 	 /**
 	  * 建立一个对有序数组进行二分法查找的函数，查找一个数是否在数组中。
-	  * @param t 输入一个int型的整型变量。
+	  * @param arr 输入一个整型数组变量。
+	  * @param key 输入一个整型变量。
 	  * @return 若该数在数组中返回在该数组中的位置，否则返回-1.
 	  */
 	 	public static int halfSearch(int[] arr,int key)
@@ -114,8 +112,7 @@ class ArrayTool
 	 	
 	 	/**
 	 	 * 建立一个十进制数转换为十六进制数的函数
-	 	 * @param num 输入一个int型的整型变量。
-	 	 * @return 返回一个该十进制数所对应的十六进制数。
+	 	 * @param num 输入一个整型的整型变量。
 	 	 */
 	 	public static void toH(int num)
 	 	{
